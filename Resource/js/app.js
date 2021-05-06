@@ -300,10 +300,9 @@ $('.collapsible').on('click', '.collapsible-header', function(){
     var ing = "";
     DayDishSelected[0].Ingredientes.forEach(elements => { ing  = ing + "<li>"+elements+"</li>"; });
 
-    var InnerText_CollapsibleBody = "</h4><strong>" + DayDishSelected[0].Nombre + "</strong></h4> <br><br> Ingredientes: <br>"+ing;
+    var InnerText_CollapsibleBody = "</h4><strong>" + DayDishSelected[0].Nombre + "</strong></h4> <br><br> Ingredientes: <br>" + ing;
 
     $(this).siblings().html(InnerText_CollapsibleBody);
-
 });
 
 $('.list-daily-diet').on('click', '.dish-item', function(){
