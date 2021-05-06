@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Control de dieta </title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Resource/Materialize/materialize.min.css"> 
+	<link rel="stylesheet" type="text/css" href="Resource/css/app.css">
+</head>
+<body>
+
+    <nav class="indigo lighten-2">
+        <div class="nav-wrapper">
+            <div class="row">
+                <div class="col l1"></div>
+                <div class="col l10">
+                  <a href="#" class="brand-logo">Mi dieta <i class="large material-icons left icon-mi-dieta">local_dining</i></a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+<!--                    <li><a href="sass.html">Ver mi dieta</a></li> -->
+                  </ul>
+                </div>
+                </div>
+                <div class="col l1"></div>
+            </div>
+      </nav>
+
+    <div class="container row-show-diet-items">
+        <div class="row">
+            
+            <div class="col l4 s12">
+                <ul class="collection with-header collection-week-diet">
+                    <li class="collection-header">
+                        <h5>Escoje el dia</h5>
+                        <select class="browser-default select-week-day">
+                          <option value="Lunes"     > Lunes       </option>
+                          <option value="Martes"    > Martes      </option>
+                          <option value="Miercoles" > Miércoles   </option>
+                          <option value="Jueves"    > Jueves      </option>
+                          <option value="Viernes"   > Viernes     </option>
+                          <option value="Sabado"    > Sábado      </option>
+                          <option value="Domingo"   > Domingo     </option>
+                        </select>
+                    </li>
+                </ul>
+    
+                <div class="collection list-daily-diet hide-on-med-and-down">
+                    <a class="collection-item dish-item">Desayuno   <i class="material-icons right hide-arrow-right">chevron_right</i></a>
+                    <a class="collection-item dish-item">Almuerzo   <i class="material-icons right hide-arrow-right">chevron_right</i></a>
+                    <a class="collection-item dish-item">Colación   <i class="material-icons right hide-arrow-right">chevron_right</i></a>
+                    <a class="collection-item dish-item">Comida     <i class="material-icons right hide-arrow-right">chevron_right</i></a>
+                    <a class="collection-item dish-item">Merienda   <i class="material-icons right hide-arrow-right">chevron_right</i></a>
+                    <a class="collection-item dish-item">Cena       <i class="material-icons right hide-arrow-right">chevron_right</i></a>
+                </div>
+
+                <div class="show-selection-diet-on-smartphones hide-on-large-only">
+                    <ul class="collapsible expandable">
+                        <li>
+                          <div class="collapsible-header"><i class="material-icons">filter_drama</i> Desayuno</div>
+                          <div class="collapsible-body"></div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header"><i class="material-icons">place</i> Almuerzo</div>
+                          <div class="collapsible-body"></div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header"><i class="material-icons">whatshot</i> Colación</div>
+                          <div class="collapsible-body"></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">whatshot</i> Comida</div>
+                            <div class="collapsible-body"></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">whatshot</i> Merienda</div>
+                            <div class="collapsible-body"></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">whatshot</i> Cena</div>
+                            <div class="collapsible-body"></div>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+
+            <div class="col l8">
+                <div class="show-selection-diet hide-on-med-and-down"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="Resource/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="Resource/Materialize/materialize.min.js"></script>
+    <script src="Resource/js/app.js"></script>
+</body>
+</html>
+
+<!--
+            <div class="card">
+                <div class="card-content">
+
+                    <span class="card-title"><h4>Dieta mes de mayo</h4></span>
+
+                    <table class="table striped">
+                        <thead>
+                            <tr>
+                                <th>Hora/Día    </th>
+                                <th>Lunes        </th>
+                                <th>Martes     </th>
+                                <th>Miércoles   </th>
+                                <th>Jueves      </th>
+                                <th>Viernes  </th>
+                                <th>Sábado  </th>
+                                <th>Domingo  </th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="show_diet">
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+-->
