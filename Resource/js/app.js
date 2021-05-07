@@ -27,7 +27,49 @@ Platillos = {
                                                     '1 taza de agua',
                                                     ]
                                 }]
-        }
+        },
+        PapayaYQuesoCottage: [{
+            Nombre: 'Papaya con queso cottage',
+            Ingredientes: [
+                '1 taza de papaya',
+                '3 cucharadas de queso cottage',
+                '5 almendras'
+            ]
+        }],
+        Tes: {
+            TeManzanilla: [{
+                Nombre: 'Té de Manzanilla',
+                Ingredientes: [
+                    '1 taza de té de manzanilla',
+                    '1 manzana',
+                    '5 almendras'
+                ]
+            }],
+            TeCanela: [{
+                Nombre: 'Té de Canela',
+                Ingredientes: [
+                    '1 taza de canela',
+                    '1 taza de papaya',
+                    '5 almendras'
+                ]
+            }]
+        },
+        Quinoa: [{
+            Nombre: 'Quinoa',
+            Ingredientes: [
+                '2 cucharadas de Quinoa',
+                '3 cucharadas de leche',
+                '1 manzana'
+            ]
+        }],
+        KiwiConYogurt: [{
+            Nombre: 'Kiwi con Yogurt',
+            Ingredientes: [
+                '1 Kiwi',
+                '1/2 taza de Yorgurt light',
+                '5 almendras'
+            ]
+        }]        
     },
     Almuerzo: {
         HotCake: [{ Nombre: 'Hot Cake',
@@ -47,6 +89,59 @@ Platillos = {
                                      '2 rebandas de jamón de pavo'
 
                      ]
+        }],
+        Salchichas: [{
+            Nombre: 'Salchichas',
+            Ingredientes: [
+                '1/2 taza de frijoles',
+                '2 salchichas',
+                '1 cucharada de guacamole',
+                '1 taza de ensalada de verduras crudas',
+                '2 tostadas horneadas'
+            ]
+        }],
+        FajitasDePollo: [{
+            Nombre: 'Fajitas de Pollo',
+            Ingredientes: [
+                '90 g de pechuga de pollo ',
+                'Verdura mixta',
+                '1/2 taza de frijoles de la olla',
+                'Salsa',
+                '1 pan integral'
+            ]
+        }],
+        Claras: [{
+            Nombre: 'Claras de huevo',
+            Ingredientes: [
+                '2 claras',
+                '2 rebandas de queso panela',
+                'Verdura al gusto',
+                '1/3 de aguacate',
+                'Champiñones',
+                '1 tortilla chica'
+            ]
+        }],
+        Enfrijoladas: [{
+            Nombre: 'Enfrijoladas',
+            Ingredientes: [
+                '1/2 taza de nopales',
+                '1 pieza de pollo',
+                'Verdura al gusto',
+                'Salsa',
+                '1/3 de aguacate',
+                '2 tortillas chicas'
+            ]
+        }],
+        Champiñones: [{
+            Nombre: 'Champiñones',
+            Ingredientes: [
+                '1 taza de champiñones',
+                'Jitomate',
+                'Cebolla',
+                'Salsa',
+                '1/3 de aguacate',
+                '1 tortilla de maíz'
+            ]
         }]
     },
     Colacion: {
@@ -154,22 +249,22 @@ DietWeek = {
     Desayuno: {
         Hora:       '07:30 am',
         Lunes:      Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Martes:     Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Miercoles:  Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Jueves:     Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Viernes:    Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Sabado:     Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Domingo:    Platillos.Desayuno.Licuados.LicuadoPapayaFresa
+        Martes:     Platillos.Desayuno.PapayaYQuesoCottage,
+        Miercoles:  Platillos.Desayuno.Tes.TeManzanilla,
+        Jueves:     Platillos.Desayuno.Tes.TeCanela,
+        Viernes:    Platillos.Desayuno.Quinoa,
+        Sabado:     Platillos.Desayuno.KiwiConYogurt,
+        Domingo:    Platillos.Desayuno.Licuados.LicuadoFresas
     },
     Almuerzo:{
         Hora:       '10:00 am',
-        Lunes:      Platillos.Almuerzo.Sandwich,
+        Lunes:      Platillos.Almuerzo.HotCake,
         Martes:     Platillos.Almuerzo.Sandwich,
-        Miercoles:  Platillos.Almuerzo.Sandwich,
-        Jueves:     Platillos.Almuerzo.Sandwich,
-        Viernes:    Platillos.Almuerzo.Sandwich,
-        Sabado:     Platillos.Almuerzo.Sandwich,
-        Domingo:    Platillos.Almuerzo.Sandwich
+        Miercoles:  Platillos.Almuerzo.Salchichas,
+        Jueves:     Platillos.Almuerzo.FajitasDePollo,
+        Viernes:    Platillos.Almuerzo.Claras,
+        Sabado:     Platillos.Almuerzo.Enfrijoladas,
+        Domingo:    Platillos.Almuerzo.Champiñones
     },
     ColacionPostAlmuerzo:{
         Hora:       '12:00-01:00 pm',
@@ -332,6 +427,8 @@ $('.list-daily-diet').on('click', '.dish-item', function(){
     $('.show-selection-diet').html(collection_element);
 });
 
+
+/*
 obj = {
     Martes: {
         Desayuno: Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
@@ -382,3 +479,5 @@ obj = {
         Cena:       Platillos.Cena.LicuadoManzanaLeche
     }
 }
+
+*/
