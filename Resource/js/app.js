@@ -195,6 +195,54 @@ Platillos = {
                     '5 almendras',
                     '1 gelatina light'
                 ]
+            }],
+            Jicama: [{
+                Nombre: 'Jamaica',
+                Ingredientes: [
+                    '1 taza de jicama',
+                    '5 almendras',
+                    '1 gelatina light'
+                ]
+            }],
+            CacahuatesTostados: [{
+                Nombre: 'Cacahuates tostados',
+                Ingredientes: [
+                    '1/2 taza de cacahuates tostados',
+                    '5 almendras',
+                    '1 gelatina light'
+                ]
+            }],
+            ChayoteCocido: [{
+                Nombre: 'Chayote cocido',
+                Ingredientes: [
+                    '1 taza de chayote cocido',
+                    '5 almendras',
+                    '1 gelatina light'
+                ]
+            }],
+            Sandia: [{
+                Nombre: 'Sandia',
+                Ingredientes: [
+                    '1 taza de sandía',
+                    '5 almendras',
+                    '1 gelatina light'
+                ]
+            }],
+            Zanahoria: [{
+                Nombre: 'Zanahoria',
+                Ingredientes: [
+                    '1 taza de zanahorias',
+                    '5 almendras',
+                    '1 gelatina light'
+                ]
+            }],
+            Piña: [{
+                Nombre: 'Piña',
+                Ingredientes: [
+                    '1 taza de piña',
+                    '5 almendras',
+                    '1 gelatina light'
+                ]
             }]
         }]
     },
@@ -230,6 +278,47 @@ Platillos = {
                 '1 taza de ensalada de verduras crudas',
                 '1/2 taza de arroz'
             ]
+        }],
+        PizzaDeAvena: [{
+            Nombre: 'Pizza de avena',
+            Ingredientes: [
+                '1/2 de taza de avena molida',
+                '1 salchicha',
+                '1 rebanada de queso panela',
+                'Verduras al gusto',
+                'Salsa de tomate',
+                'Rajas'
+            ]
+        }],
+        Lomo: [{
+            Nombre: 'Lomo',
+            Ingredientes: [
+                '1/2 taza de frijoles molidos',
+                '100 g de lomo',
+                '1 cucharada de huacamole',
+                '1 taza de ensalada de verduras crudas',
+                '1 tortilla de maíz'
+            ]
+        }],
+        EnsaladaDeCamarones: [{
+            Nombre: 'Ensalada de camarones',
+            Ingredientes: [
+                '6 camarones',
+                'Jicama',
+                'Pepino',
+                '1 taza de lechuga',
+                '1/3 de aguacate',
+                '2 tostadas horneadas'
+            ]
+        }],
+        TostadasDeJamon: [{
+            Nombre: 'Tostadas de jamón',
+            Ingredientes: [
+                '2 rebanadas de jamón de pavo',
+                'Jitomate rebanado',
+                'Zanahoria rallada',
+                ''
+            ]
         }]
     },
     Cena: {
@@ -241,7 +330,63 @@ Platillos = {
                 '5 almendras',
                 '1 cucharada de avena'
             ]
+        }],
+        NopalesConPollo: [{
+            Nombre: 'Nopales con pollo',
+            Ingredientes: [
+                '90 g de pechuga de pollo',
+                'Verdura al gusto',
+                'Salsa',
+                '1/3 de aguacate'
+            ]
+        }],
+        EnsaladaQuesoPanela: [{
+            Nombre: 'Ensalada de queso panela',
+            Ingredientes: [
+                '2 rebanadas de queso panela',
+                'Verdura al gusto',
+                'Salsa',
+                '1/3 de aguacate'
+            ]
+        }],
+        PapayaYQuesoCottage: [{
+            Nombre: 'Papaya con queso cottage',
+            Ingredientes: [
+                '1 taza de papaya',
+                '3 cucharadas de queso cottage',
+                '5 almendras'
+            ]
+        }],
+        Quesadilla: [{
+            Nombre: 'Quesadilla',
+            Ingredientes: [
+                '1 tortilla de maíz',
+                '2 rebanadas de queso panela',
+                '1 taza de verduras mixtas',
+                'Salsa'
+            ]
+        }],
+        PechugaAsada: [{
+            Nombre: 'Pechuga asada',
+            Ingredientes: [
+                '100 g de pechuga',
+                'Jitomate',
+                'Cebolla',
+                '2 tostadas horneadas',
+                '1/3 de aguacate'
+            ]
+        }],
+        BisteckDeRes: [{
+            Nombre: 'Bisteck de res',
+            Ingredientes: [
+                '90 g de bisteck de res',
+                'Salsa',
+                '1/3 de aguacate',
+                'Jitomate',
+                'Cebolla'
+            ]
         }]
+
     }
 };
 
@@ -268,13 +413,13 @@ DietWeek = {
     },
     ColacionPostAlmuerzo:{
         Hora:       '12:00-01:00 pm',
-        Lunes:      Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
+        Lunes:      Platillos.Colacion.PostAlmuerzo[0].Gazpacho,
         Martes:     Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Miercoles:  Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Jueves:     Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Viernes:    Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
+        Miercoles:  Platillos.Colacion.PostAlmuerzo[0].PistachesYPapaya,
+        Jueves:     Platillos.Colacion.PostAlmuerzo[0].MelonYAlmendras,
+        Viernes:    Platillos.Colacion.PostAlmuerzo[0].Gazpacho,
         Sabado:     Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Domingo:    Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
+        Domingo:    Platillos.Colacion.PostAlmuerzo[0].NuecesYManzana,
     },
     Comida:{
         Hora:       '03:00 pm',
@@ -289,37 +434,73 @@ DietWeek = {
     ColacionPostComida:{
         Hora:       '06:00 pm',
         Lunes:      Platillos.Colacion.PostComida[0].Garbanzos,
-        Martes:     Platillos.Colacion.PostComida[0].Garbanzos,
-        Miercoles:  Platillos.Colacion.PostComida[0].Garbanzos,
-        Jueves:     Platillos.Colacion.PostComida[0].Garbanzos,
-        Viernes:    Platillos.Colacion.PostComida[0].Garbanzos,
-        Sabado:     Platillos.Colacion.PostComida[0].Garbanzos,
-        Domingo:    Platillos.Colacion.PostComida[0].Garbanzos,
+        Martes:     Platillos.Colacion.PostComida[0].Jicama,
+        Miercoles:  Platillos.Colacion.PostComida[0].CacahuatesTostados,
+        Jueves:     Platillos.Colacion.PostComida[0].ChayoteCocido,
+        Viernes:    Platillos.Colacion.PostComida[0].Sandia,
+        Sabado:     Platillos.Colacion.PostComida[0].Zanahoria,
+        Domingo:    Platillos.Colacion.PostComida[0].Piña,
     },
     Cena:{
         Hora:       '09:00 pm',
         Lunes:      Platillos.Cena.LicuadoManzanaLeche,
-        Martes:     Platillos.Cena.LicuadoManzanaLeche,
-        Miercoles:  Platillos.Cena.LicuadoManzanaLeche,
-        Jueves:     Platillos.Cena.LicuadoManzanaLeche,
-        Viernes:    Platillos.Cena.LicuadoManzanaLeche,
-        Sabado:     Platillos.Cena.LicuadoManzanaLeche,
-        Domingo:    Platillos.Cena.LicuadoManzanaLeche,
+        Martes:     Platillos.Cena.NopalesConPollo,
+        Miercoles:  Platillos.Cena.EnsaladaQuesoPanela,
+        Jueves:     Platillos.Cena.PapayaYQuesoCottage,
+        Viernes:    Platillos.Cena.Quesadilla,
+        Sabado:     Platillos.Cena.PechugaAsada,
+        Domingo:    Platillos.Cena.BisteckDeRes,
     },
+}
+
+moment.locale('es');
+
+function capitalizarPrimeraLetra(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+const removeAccents = (str) => {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
 $(function(){
     $('.collapsible').collapsible();
 
+    var today = capitalizarPrimeraLetra( removeAccents( moment(new Date()).format('dddd') ) );
+    $('.select-week-day').val(today);
+    $('.list-daily-diet').children()[0].click();
 
-//    ShowWeekDiet();
-    ShowDietPerDay("Lunes");
-    
+    var hora = moment().format('HH');
+    var minutos = moment().format('mm');
+    var format12 = '';
+
+    if( hora > 12 )
+        format12 = 'pm';
+    else
+        format12 = 'am';
+
+    console.log( today + ", "+ (hora-12) +":"+ minutos+" "+format12 );
+
+    if( hora <= 8 && minutos <= 30  )
+        $('.list-daily-diet').children()[0].click(); // desayuno
+    else if( hora <= 10 && minutos <= 30 )
+        $('.list-daily-diet').children()[1].click(); // almuerzo
+    else if( hora >= 12 && hora <= 13 )
+        $('.list-daily-diet').children()[2].click(); // colacion después del almuerzo
+    else if( hora >= 15 && hora <= 16 )
+        $('.list-daily-diet').children()[3].click(); // comida
+    else if( hora >= 17 && hora <= 18 )
+        $('.list-daily-diet').children()[4].click(); // colacion después de la comida
+    else if( hora >= 19 && minutos >= 20 || hora <= 24 )
+        $('.list-daily-diet').children()[5].click(); // cena
+
+    UpdateDietPerDay(today);
+    ShowDietPerDay(today);
 });
 
 function ShowDietPerDay(Dia){
     var collection_element_default =    "<ul class='collection with-header show-diet-per-day'>"+
-                                    "<li class='collection-header'><h4>"+Dia+"</h4></li>";
+                                            "<li class='collection-header'><h4>"+Dia+"</h4></li>";
 
     Desayuno  = DietWeek.Desayuno[""+Dia+""];
     Almuerzo  = DietWeek.Almuerzo[""+Dia+""];
@@ -338,66 +519,60 @@ function ShowDietPerDay(Dia){
 
     var collection_element = "";
     var collection_element = collection_element_default + collection_item + "</ul>";
-//    $('.show-selection-diet').html(collection_element);
-//    <li class="collection-item">Alvin</li>
-//    show-diet-per-day
 }
 
-function ShowWeekDiet(){
-    var elements = "";
+function UpdateDietPerDay(today){
+    var NextDish;
+    var Ingredients = "";
+    var InnerText_TypeDish = "";
 
-    for( i in DietWeek ){
+    NextDish = DietWeek.Desayuno[""+today+""];
+    NextDish[0].Ingredientes.forEach(elements => { Ingredients  = Ingredients + "<li>"+elements+"</li>"; });
+    InnerText_TypeDish = "</h4><strong>" + NextDish[0].Nombre + "</strong></h4> <br><br> Ingredientes: <br>" + Ingredients;
+    $('.desayuno-body').html(InnerText_TypeDish);
+    Ingredients = "";
 
-        var ingl = "", ingm = "", ingmi = "", ingj = "", ingv = "", ings = "", ingd = "";
-        
-        DietWeek[""+i+""].Lunes[0].Ingredientes.forEach(elements =>     { ingl  = ingl  + "<li>"+elements+"</li>"; });
-        DietWeek[""+i+""].Martes[0].Ingredientes.forEach(elements =>    { ingm  = ingm  + "<li>"+elements+"</li>"; });
-        DietWeek[""+i+""].Miercoles[0].Ingredientes.forEach(elements => { ingmi = ingmi + "<li>"+elements+"</li>"; });
-        DietWeek[""+i+""].Jueves[0].Ingredientes.forEach(elements =>    { ingj  = ingj  + "<li>"+elements+"</li>"; });
-        DietWeek[""+i+""].Viernes[0].Ingredientes.forEach(elements =>   { ingv  = ingv  + "<li>"+elements+"</li>"; });
-        DietWeek[""+i+""].Sabado[0].Ingredientes.forEach(elements =>    { ings  = ings  + "<li>"+elements+"</li>"; });
-        DietWeek[""+i+""].Domingo[0].Ingredientes.forEach(elements =>   { ingd  = ingd  + "<li>"+elements+"</li>"; });
+    NextDish = DietWeek.Almuerzo[""+today+""];
+    NextDish[0].Ingredientes.forEach(elements => { Ingredients  = Ingredients + "<li>"+elements+"</li>"; });
+    InnerText_TypeDish = "</h4><strong>" + NextDish[0].Nombre + "</strong></h4> <br><br> Ingredientes: <br>" + Ingredients;
+    $('.almuerzo-body').html(InnerText_TypeDish);
+    Ingredients = "";
 
-        elements = elements + "<tr>" +
-                                "<td>" + DietWeek[""+i+""].Hora   + "</td>"+
-                                "<td> <strong>" + DietWeek[""+i+""].Lunes[0].Nombre     +"</strong><br><br> Ingredientes: "+ingl+" <br></td>"+
-                                "<td> <strong>" + DietWeek[""+i+""].Martes[0].Nombre    +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
-                                "<td> <strong>" + DietWeek[""+i+""].Miercoles[0].Nombre +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
-                                "<td> <strong>" + DietWeek[""+i+""].Jueves[0].Nombre    +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
-                                "<td> <strong>" + DietWeek[""+i+""].Viernes[0].Nombre   +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
-                                "<td> <strong>" + DietWeek[""+i+""].Sabado[0].Nombre    +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
-                                "<td> <strong>" + DietWeek[""+i+""].Domingo[0].Nombre   +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
-                            +"</tr>"; 
-    }
+    NextDish = DietWeek.ColacionPostAlmuerzo[""+today+""];
+    NextDish[0].Ingredientes.forEach(elements => { Ingredients  = Ingredients + "<li>"+elements+"</li>"; });
+    InnerText_TypeDish = "</h4><strong>" + NextDish[0].Nombre + "</strong></h4> <br><br> Ingredientes: <br>" + Ingredients;
+    $('.colacion1-body').html(InnerText_TypeDish);
+    Ingredients = "";
 
+    NextDish = DietWeek.Comida[""+today+""];
+    NextDish[0].Ingredientes.forEach(elements => { Ingredients  = Ingredients + "<li>"+elements+"</li>"; });
+    InnerText_TypeDish = "</h4><strong>" + NextDish[0].Nombre + "</strong></h4> <br><br> Ingredientes: <br>" + Ingredients;
+    $('.comida-body').html(InnerText_TypeDish);
+    Ingredients = "";
 
+    NextDish = DietWeek.ColacionPostComida[""+today+""];
+    NextDish[0].Ingredientes.forEach(elements => { Ingredients  = Ingredients + "<li>"+elements+"</li>"; });
+    InnerText_TypeDish = "</h4><strong>" + NextDish[0].Nombre + "</strong></h4> <br><br> Ingredientes: <br>" + Ingredients;
+    $('.colacion2-body').html(InnerText_TypeDish);
+    Ingredients = "";
 
-    $('.show_diet').html(elements);
-
+    NextDish = DietWeek.Cena[""+today+""];
+    NextDish[0].Ingredientes.forEach(elements => { Ingredients  = Ingredients + "<li>"+elements+"</li>"; });
+    InnerText_TypeDish = "</h4><strong>" + NextDish[0].Nombre + "</strong></h4> <br><br> Ingredientes: <br>" + Ingredients;
+    $('.cena-body').html(InnerText_TypeDish);
+    Ingredients = "";
+    
 }
+
+$('.select-week-day').on('change', function(){
+    var DayWeek = $(this).val();
+
+    UpdateDietPerDay(DayWeek);
+});
 
 $('.collapsible').on('click', '.collapsible-header', function(){    
     $(this).parent().siblings().children().removeClass('collapsible-active');
     $(this).addClass('collapsible-active');
-
-    var DayWeek  = $('select.select-week-day').val();
-    var TypeDish = $(this).text().split(' ')[1];
-    var TypeDishSelected;
-
-    if( TypeDish == 'Colación' )
-        TypeDishSelected = DietWeek["ColacionPostAlmuerzo"];
-    else if( TypeDish == 'Merienda' )
-        TypeDishSelected = DietWeek["ColacionPostComida"];
-    else
-        TypeDishSelected = DietWeek[""+TypeDish+""];
-
-    var DayDishSelected = TypeDishSelected[""+DayWeek+""];
-    var ing = "";
-    DayDishSelected[0].Ingredientes.forEach(elements => { ing  = ing + "<li>"+elements+"</li>"; });
-
-    var InnerText_CollapsibleBody = "</h4><strong>" + DayDishSelected[0].Nombre + "</strong></h4> <br><br> Ingredientes: <br>" + ing;
-
-    $(this).siblings().html(InnerText_CollapsibleBody);
 });
 
 $('.list-daily-diet').on('click', '.dish-item', function(){
@@ -428,56 +603,34 @@ $('.list-daily-diet').on('click', '.dish-item', function(){
 });
 
 
-/*
-obj = {
-    Martes: {
-        Desayuno: Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Almuerzo: Platillos.Almuerzo.Sandwich,
-        Colacion1: Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Comida: Platillos.Comida.BisteckALaMexicana,
-        Colacion2:  Platillos.Colacion.PostComida[0].Garbanzos,
-        Cena:       Platillos.Cena.LicuadoManzanaLeche
-    },
-    Miercoles: {
-        Desayuno: Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Almuerzo: Platillos.Almuerzo.Sandwich,
-        Colacion1: Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Comida: Platillos.Comida.BisteckALaMexicana,
-        Colacion2:  Platillos.Colacion.PostComida[0].Garbanzos,
-        Cena:       Platillos.Cena.LicuadoManzanaLeche
-    },
-    Jueves: {
-        Desayuno: Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Almuerzo: Platillos.Almuerzo.Sandwich,
-        Colacion1: Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Comida: Platillos.Comida.BisteckALaMexicana,
-        Colacion2:  Platillos.Colacion.PostComida[0].Garbanzos,
-        Cena:       Platillos.Cena.LicuadoManzanaLeche
-    },
-    Viernes: {
-        Desayuno: Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Almuerzo: Platillos.Almuerzo.Sandwich,
-        Colacion1: Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Comida: Platillos.Comida.BisteckALaMexicana,
-        Colacion2:  Platillos.Colacion.PostComida[0].Garbanzos,
-        Cena:       Platillos.Cena.LicuadoManzanaLeche
-    },
-    Sabado: {
-        Desayuno: Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Almuerzo: Platillos.Almuerzo.Sandwich,
-        Colacion1: Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Comida: Platillos.Comida.BisteckALaMexicana,
-        Colacion2:  Platillos.Colacion.PostComida[0].Garbanzos,
-        Cena:       Platillos.Cena.LicuadoManzanaLeche
-    },
-    Domingo: {
-        Desayuno: Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Almuerzo: Platillos.Almuerzo.Sandwich,
-        Colacion1: Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
-        Comida: Platillos.Comida.BisteckALaMexicana,
-        Colacion2:  Platillos.Colacion.PostComida[0].Garbanzos,
-        Cena:       Platillos.Cena.LicuadoManzanaLeche
+// Funcion para mostrar la dieta semanal completa
+function ShowWeekDiet(){
+    var elements = "";
+
+    for( i in DietWeek ){
+
+        var ingl = "", ingm = "", ingmi = "", ingj = "", ingv = "", ings = "", ingd = "";
+        
+        DietWeek[""+i+""].Lunes[0].Ingredientes.forEach(elements =>     { ingl  = ingl  + "<li>"+elements+"</li>"; });
+        DietWeek[""+i+""].Martes[0].Ingredientes.forEach(elements =>    { ingm  = ingm  + "<li>"+elements+"</li>"; });
+        DietWeek[""+i+""].Miercoles[0].Ingredientes.forEach(elements => { ingmi = ingmi + "<li>"+elements+"</li>"; });
+        DietWeek[""+i+""].Jueves[0].Ingredientes.forEach(elements =>    { ingj  = ingj  + "<li>"+elements+"</li>"; });
+        DietWeek[""+i+""].Viernes[0].Ingredientes.forEach(elements =>   { ingv  = ingv  + "<li>"+elements+"</li>"; });
+        DietWeek[""+i+""].Sabado[0].Ingredientes.forEach(elements =>    { ings  = ings  + "<li>"+elements+"</li>"; });
+        DietWeek[""+i+""].Domingo[0].Ingredientes.forEach(elements =>   { ingd  = ingd  + "<li>"+elements+"</li>"; });
+
+        elements = elements + "<tr>" +
+                                "<td>" + DietWeek[""+i+""].Hora   + "</td>"+
+                                "<td> <strong>" + DietWeek[""+i+""].Lunes[0].Nombre     +"</strong><br><br> Ingredientes: "+ingl+" <br></td>"+
+                                "<td> <strong>" + DietWeek[""+i+""].Martes[0].Nombre    +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
+                                "<td> <strong>" + DietWeek[""+i+""].Miercoles[0].Nombre +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
+                                "<td> <strong>" + DietWeek[""+i+""].Jueves[0].Nombre    +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
+                                "<td> <strong>" + DietWeek[""+i+""].Viernes[0].Nombre   +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
+                                "<td> <strong>" + DietWeek[""+i+""].Sabado[0].Nombre    +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
+                                "<td> <strong>" + DietWeek[""+i+""].Domingo[0].Nombre   +"</strong><br><br> Ingredientes: "+ingm+" <br></td>"+
+                            +"</tr>"; 
     }
+    $('.show_diet').html(elements);
 }
 
-*/
+
