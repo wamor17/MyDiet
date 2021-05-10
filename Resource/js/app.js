@@ -481,18 +481,25 @@ $(function(){
 
     console.log( today + ", "+ (hora-12) +":"+ minutos+" "+format12 );
 
-    if( hora <= 8 && minutos <= 30  )
+    if( hora <= 8 && minutos <= 30  ){
         $('.list-daily-diet').children()[0].click(); // desayuno
-    else if( hora <= 10 && minutos <= 30 )
+        $('.collapsible div')[0].click();
+    }else if( hora <= 10 && minutos <= 30 ){
         $('.list-daily-diet').children()[1].click(); // almuerzo
-    else if( hora >= 12 && hora <= 13 )
+        $('.collapsible div')[1].click();
+    }else if( hora >= 12 && hora <= 13 ){
         $('.list-daily-diet').children()[2].click(); // colacion después del almuerzo
-    else if( hora >= 15 && hora <= 16 )
+        $('.collapsible div')[2].click();
+    }else if( hora >= 15 && hora <= 16 ){
         $('.list-daily-diet').children()[3].click(); // comida
-    else if( hora >= 17 && hora <= 18 )
+        $('.collapsible div')[3].click();
+    }else if( hora >= 17 && hora <= 18 ){
         $('.list-daily-diet').children()[4].click(); // colacion después de la comida
-    else if( hora >= 19 && minutos >= 20 || hora <= 24 )
+        $('.collapsible div')[4].click();
+    }else if( hora >= 19 && minutos >= 20 || hora <= 24 ){
         $('.list-daily-diet').children()[5].click(); // cena
+        $('.collapsible div')[5].click();
+    }
 
     UpdateDietPerDay(today);
     ShowDietPerDay(today);
