@@ -2,31 +2,41 @@
 Platillos = {
     Desayuno: {
         Licuados: {
-            LicuadoPapayaFresa: [{ Nombre: 'Licuado de Papaya y Fresas',
-                                   Ingredientes: [  '1 taza de papaya',
-                                                    'taza de fresas',
-                                                    '1 taza de agua',
-                                                    '1 cucharada de avena',
-                                                    '1 cucharada de linaza']
-                                }],
-            LicuadoFresas:      [{ Nombre: 'Licuado de Fresa',
-                                   Ingredientes: [  '1 taza de fresas',
-                                                    '1 taza de agua',
-                                                    '1 cucharada de avena',
-                                                    '1 cucharada de linaza',
-                                                    '5 almendras']
-                                }],
-            LicuadoVerde:       [{ Nombre: 'Licuado Verde',
-                                   Ingredientes: [  '1 pezado de Nopal',
-                                                    '1 pedazo de Perejil',
-                                                    '1 pedazo de Apio',
-                                                    '1 Manzana',
-                                                    '1 pedazo de Papaya',
-                                                    '1 cucharada de linaza',
-                                                    '1 cucharada de avena',
-                                                    '1 taza de agua',
+            Licuado_PapayaFresa: [
+                                    { 
+                                        Nombre: 'Licuado de Papaya y Fresas',
+                                        Ingredientes: [  '1 taza de papaya',
+                                                            'taza de fresas',
+                                                            '1 taza de agua',
+                                                            '1 cucharada de avena',
+                                                            '1 cucharada de linaza']
+                                    }
+                                ],
+            Licuado_Fresas:      [
+                                    { 
+                                        Nombre: 'Licuado de Fresa',
+                                        Ingredientes: [  
+                                                        '1 taza de fresas',
+                                                        '1 taza de agua',
+                                                        '1 cucharada de avena',
+                                                        '1 cucharada de linaza',
+                                                        '5 almendras'
                                                     ]
-                                }]
+                                    }
+                                ],
+            Licuado_Verde:       [
+                                    {   Nombre: 'Licuado Verde',
+                                        Ingredientes: [  '1 pezado de Nopal',
+                                                            '1 pedazo de Perejil',
+                                                            '1 pedazo de Apio',
+                                                            '1 Manzana',
+                                                            '1 pedazo de Papaya',
+                                                            '1 cucharada de linaza',
+                                                            '1 cucharada de avena',
+                                                            '1 taza de agua',
+                                                            ]
+                                    }
+                                ]
         },
         PapayaYQuesoCottage: [{
             Nombre: 'Papaya con queso cottage',
@@ -69,7 +79,46 @@ Platillos = {
                 '1/2 taza de Yorgurt light',
                 '5 almendras'
             ]
-        }]        
+        }],
+        LecheConFresa: [{
+            Nombre: 'Leche con fresas',
+            Ingredientes: [
+                '1 taza de leche light deslactosaa',
+                '1 taza de fresas',
+                '5 almendras'
+            ]
+        }],
+        AvenaConManzana:    [
+                                {
+                                    Nombre: 'Avena con manzana',
+                                    Ingredientes: [
+                                        '1 taza de agua',
+                                        '2 cucharadas de avena',
+                                        '1 manzana',
+                                        '5 almendras'
+                                    ]
+                                }
+                            ],
+        YogurthLigth:   [
+                            {
+                                Nombre: "Yogurth con manzana",
+                                Ingredientes: [
+                                    '1 taza de yogurth light',
+                                    '5 almendras',
+                                    '1 manzana'
+                                ]
+                            }
+                        ],
+        CanelaConPapaya: [
+            {
+                Nombre: "Canela",
+                Ingredientes: [
+                    '1 taza de canela',
+                    '1 taza de papaya',
+                    '5 almendras'
+                ]
+            }
+        ]
     },
     Almuerzo: {
         HotCake: [{ Nombre: 'Hot Cake',
@@ -142,7 +191,35 @@ Platillos = {
                 '1/3 de aguacate',
                 '1 tortilla de maíz'
             ]
-        }]
+        }],
+        HuevoRevuelto: [
+            {
+                Nombre: "Huevo revuelto",
+                Ingreientes: [
+                    '2 huevos',
+                    'Jitomate',
+                    'Cebolla',
+                    '1 taza de frijoles',
+                    '1 taza de chayotes',
+                    '2 cucharaditas de aceite o PAM',
+                    '2 tostadas horneadas'
+                ]
+            }
+        ],
+        Sandwich: [
+            {
+                Nombre: "Sandwich",
+                Ingredientes: [
+                    '2 rebanadas de pan integral',
+                    '2 rebanadas de jamón',
+                    '1/3 de aguacate',
+                    'Lechuga',
+                    'Jitomate',
+                    '1/2 taza de germen de alfalfa'
+                ]
+            }
+        ],
+
     },
     Colacion: {
         PostAlmuerzo: [{
@@ -185,7 +262,37 @@ Platillos = {
                     '1 manzana',
                     '1 gelatina light'
                 ]
-            }]
+            }],
+            Manzana: [
+                {
+                    Nombre: "Manzana con nueces",
+                    Ingredientes: [
+                        '1 manzana',
+                        '3 nueces',
+                        '1 gelatina light'
+                    ]
+                }
+            ],
+            Kiwi: [
+                {
+                    Nombre: "Kiwi",
+                    Ingredientes: [
+                        '1 kiwi',
+                        '3 nueces',
+                        '1 gelatina light'
+                    ]
+                }
+            ],
+            Guayabas: [
+                {
+                    Nombre: "Guayaba",
+                    Ingredientes: [
+                        '3 guayabas',
+                        '5 almendras',
+                        '1 gelatina light'
+                    ]
+                }
+            ]
         }],
         PostComida: [{
             Garbanzos: [{
@@ -243,7 +350,20 @@ Platillos = {
                     '5 almendras',
                     '1 gelatina light'
                 ]
-            }]
+            }],
+            Frappe: [
+                {
+                    Nombre: "Frappe",
+                    Ingredientes: [
+                        '1 taza de yogurth',
+                        '1 taza de fresas',
+                        'Canela',
+                        'Vainilla',
+                        '1 pan tostado',
+                        'Integral'
+                    ]
+                }
+            ]
         }]
     },
     Comida: {
@@ -319,7 +439,20 @@ Platillos = {
                 'Zanahoria rallada',
                 ''
             ]
-        }]
+        }],
+        BrochetaDePollo: [
+            {
+                Nombre: 'Brocheta de pollo',
+                Ingredientes: [
+                    '100g de pollo',
+                    '1 pimiento cocido',
+                    '1 cucharadita de aceite de oliva',
+                    'Salsa',
+                    '1/2 taza de habas',
+                    '2 tostadas horneadas'
+                ]
+            }
+        ]
     },
     Cena: {
         LicuadoManzanaLeche: [{
@@ -392,31 +525,31 @@ Platillos = {
 
 DietWeek = {
     Desayuno: {
-        Hora:       '07:30 am',
-        Lunes:      Platillos.Desayuno.Licuados.LicuadoPapayaFresa,
-        Martes:     Platillos.Desayuno.PapayaYQuesoCottage,
-        Miercoles:  Platillos.Desayuno.Tes.TeManzanilla,
-        Jueves:     Platillos.Desayuno.Tes.TeCanela,
-        Viernes:    Platillos.Desayuno.Quinoa,
-        Sabado:     Platillos.Desayuno.KiwiConYogurt,
-        Domingo:    Platillos.Desayuno.Licuados.LicuadoFresas
+        Hora:       '08:00 am',
+        Lunes:      Platillos.Desayuno.LecheConFresa,
+        Martes:     Platillos.Desayuno.AvenaConManzana,
+        Miercoles:  Platillos.Desayuno.YogurthLigth,
+        Jueves:     Platillos.Desayuno.PapayaYQuesoCottage,
+        Viernes:    Platillos.Desayuno.CanelaConPapaya,
+        Sabado:     Platillos.Desayuno.Tes.TeManzanilla,
+        Domingo:    Platillos.Desayuno.AvenaConManzana
     },
     Almuerzo:{
-        Hora:       '10:00 am',
+        Hora:       '12:00 am',
         Lunes:      Platillos.Almuerzo.HotCake,
         Martes:     Platillos.Almuerzo.Sandwich,
         Miercoles:  Platillos.Almuerzo.Salchichas,
-        Jueves:     Platillos.Almuerzo.FajitasDePollo,
+        Jueves:     Platillos.Almuerzo.Enfrijoladas,
         Viernes:    Platillos.Almuerzo.Claras,
         Sabado:     Platillos.Almuerzo.Enfrijoladas,
         Domingo:    Platillos.Almuerzo.Champiñones
     },
     ColacionPostAlmuerzo:{
-        Hora:       '12:00-01:00 pm',
+        Hora:       '01:00 pm',
         Lunes:      Platillos.Colacion.PostAlmuerzo[0].Gazpacho,
         Martes:     Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
         Miercoles:  Platillos.Colacion.PostAlmuerzo[0].PistachesYPapaya,
-        Jueves:     Platillos.Colacion.PostAlmuerzo[0].MelonYAlmendras,
+        Jueves:     Platillos.Colacion.PostAlmuerzo[0].Guayabas,
         Viernes:    Platillos.Colacion.PostAlmuerzo[0].Gazpacho,
         Sabado:     Platillos.Colacion.PostAlmuerzo[0].NuecesYPera,
         Domingo:    Platillos.Colacion.PostAlmuerzo[0].NuecesYManzana,
@@ -426,7 +559,7 @@ DietWeek = {
         Lunes:      Platillos.Comida.BisteckALaMexicana,
         Martes:     Platillos.Comida.BisteckALaMexicana,
         Miercoles:  Platillos.Comida.BisteckALaMexicana,
-        Jueves:     Platillos.Comida.BisteckALaMexicana,
+        Jueves:     Platillos.Comida.BrochetaDePollo,
         Viernes:    Platillos.Comida.BisteckALaMexicana,
         Sabado:     Platillos.Comida.BisteckALaMexicana,
         Domingo:    Platillos.Comida.BisteckALaMexicana,
@@ -446,7 +579,7 @@ DietWeek = {
         Lunes:      Platillos.Cena.LicuadoManzanaLeche,
         Martes:     Platillos.Cena.NopalesConPollo,
         Miercoles:  Platillos.Cena.EnsaladaQuesoPanela,
-        Jueves:     Platillos.Cena.PapayaYQuesoCottage,
+        Jueves:     Platillos.Cena.Frappe,
         Viernes:    Platillos.Cena.Quesadilla,
         Sabado:     Platillos.Cena.PechugaAsada,
         Domingo:    Platillos.Cena.BisteckDeRes,
